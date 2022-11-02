@@ -1,27 +1,46 @@
-# Abdelaliazouz
+# Software Developer / Data Scientist Portfolio using Angular 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+<p align="center"> 
+  <kbd>
+<img src="./src/assets/images/video.gif"></img>
+  </kbd>
+</p>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Sections 
+- Summary and About me\
+- Skills\
+- Proficiency\
+- Education Timeline\
+- Open Source Projects Connected with Github\
+- Contact me\
+- Github Profile
+To view a live example, **[click here](https://sarthak-agrawal.me/)**
 
-## Code scaffolding
+## Getting Started 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
 
-## Build
+```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
+Angular@8.0.2 or higher
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## How To Use 🔧
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+From your command line, clone and run AngularFolio:
+```bash
+# Clone this repository
+$ git clone https://github.com/sarthakgoenka/Angularfolio
 
-## Running end-to-end tests
+# Go into the repository
+$ cd Angularfolio
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Install dependencies
+$ npm install
+$ ng serve
+```
