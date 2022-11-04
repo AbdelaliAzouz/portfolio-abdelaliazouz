@@ -16,6 +16,9 @@ import { SkillsComponent } from './skills/skills.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { SoftwareSkillComponent } from './skills/software-skill/software-skill.component';
+import { ExperienceCardComponent } from './experience/experience-card/experience-card.component';
+import { Project2Component } from './project2/project2.component';
+import { GithubRepoCardComponent } from './project2/github-repo-card/github-repo-card.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +36,9 @@ import { SoftwareSkillComponent } from './skills/software-skill/software-skill.c
     TimelineComponent,
     SoftwareSkillComponent,
     ProjectsComponent,
+    ExperienceCardComponent,
+    Project2Component,
+    GithubRepoCardComponent,
   ],
   imports: [
     BrowserAnimationsModule,

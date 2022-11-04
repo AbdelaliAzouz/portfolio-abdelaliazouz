@@ -97,21 +97,39 @@
   position: relative;
   -o-transition: all .3s;
   transition: all .3s;
-
-
 }
 .mar-left{
   margin-left: 50%;
   padding-left: 2rem;
   @media (max-width: 768px) {
     margin: 0;
+    .prt_about_learnbox_year h1 {
+      font-size: 40px;
+      margin: 0;
+      color: #a1bcd8;
+      font-weight: 500;
+    }
+    .prt_about_learnbox_info {
+      display: table-cell;
+      width: calc(100% - 0px);
+    }
   }
 }
 .mar-right{
-  margin-right: 50%;
   padding-right: 2rem;
+  margin-right: 50%;
   @media (max-width: 768px) {
     margin: 0;
+    .prt_about_learnbox_year h1 {
+      font-size: 40px;
+      margin: 0;
+      color: #a1bcd8;
+      font-weight: 500;
+    }
+    .prt_about_learnbox_info {
+      display: table-cell;
+      width: calc(100% - 0px);
+    }
   }
 }
 .prt_about_learnbox_left .prt_about_learnbox_year {
@@ -266,6 +284,7 @@
   }
 }
 
+
 /* Animations */
 @keyframes fade_down {
   0% {
@@ -323,4 +342,4 @@
     transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
     transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
   }
-}
+} 

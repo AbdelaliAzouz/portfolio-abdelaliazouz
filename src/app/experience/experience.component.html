@@ -1,4 +1,41 @@
+<div *ngIf="workExperiences.viewExperiences">
+  <div id="experience">
+      <div class="experience-container" id="workExperience">
+        <div>
+          <h1 class="experience-heading">Certifications</h1>
+          <div class="experience-cards-div">
+            <app-experience-card  *ngFor="let card of workExperiences.experience2" [experience]="card"></app-experience-card>
+          </div>
+          <div class="experience-cards-div">
+            <app-experience-card  *ngFor="let card of workExperiences.experience" [experience]="card"></app-experience-card>
+          </div>
+          <div class="experience-cards-div">
+            <app-experience-card  *ngFor="let card of workExperiences.experience3" [experience]="card"></app-experience-card>
+          </div>
+          <div class="experience-cards-div">
+            <app-experience-card  *ngFor="let card of workExperiences.experience4" [experience]="card"></app-experience-card>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
 <div *ngIf="workExperiences.viewExperiences">
     <div id="experience">
         <div class="experience-container" id="workExperience">
@@ -28,4 +65,4 @@
     </div>
   </div>
   
-  
+   -->

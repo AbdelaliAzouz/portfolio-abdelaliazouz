@@ -8,11 +8,34 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
+  // myFunction() {
+  //   var dots = document.getElementById("dots");
+  //   var moreText = document.getElementById("more");
+  //   var btnText = document.getElementById("myBtn");
+  
+  //   if (dots.style.display === "none") {
+  //     dots.style.display = "inline";
+  //     btnText.innerHTML = "Read more";
+  //     moreText.style.display = "none";
+  //   } else {
+  //     dots.style.display = "none";
+  //     btnText.innerHTML = "Read less";
+  //     moreText.style.display = "inline";
+  //   }
+  // }
+
+  readMore = false;
+  isReadMore = true
+
+  showText() {
+     this.isReadMore = !this.isReadMore
+  }
+
   timeline = [
     {
-      heading: " Collaborative Platform of Academic Researchers of the faculty of sciences and technologies",
+      heading: " Collaborative Platform of Academic Researchers in the faculty of sciences and technologies Tangier",
       subtitle: "Tools: React JS, Node JS, Express JS, MySQL, Firebase.",
-      content: "I developed this project as part of my end-of-studies project, to obtain the Bachelor's degree \n" +
+      content: "I developed this project as part of my end-of-studies project, to obtain the Bachelor's degree \n"+
       "in Science and Technology, in the Computer Engineering specialty.\n" +
       "The context of the project is oriented towards higher education and scientific research. The latter requires \n" +
       "collaborative work between researchers, so that they can: communicate to collaborate, share their scientific articles, know \n" +
@@ -52,7 +75,7 @@ export class ProjectsComponent implements OnInit {
 
     },
     {
-      heading: "Predict the flow of urban traffic in the city of Sao Paulo",
+      heading: "Predict the flow of urban traffic in the city of Sao Paulo using machine learning",
       subtitle: "Tools: Python, Numpy, Pandas, scikit learn, Random forest.",
       content: "This project covers a simple exploratory analysis over the Behavior of the urban traffic of the city of Sao Paulo in Brazil Data Set. In addition, i shortlisted a few machine learning models to predict the Slowness in Traffic variable (0-100%). Although the size of the dataset is considerably small, limiting the models performance and the exploratory analysis. The notebook was built with self-learning purposes only. The dataset covers 135 instances, each representing 30 minute timeframes over the week, from Monday 12/14/2009 to Friday 12/18/2009. \n" +
       "The steps that I’ve follow are: ",
@@ -70,12 +93,10 @@ export class ProjectsComponent implements OnInit {
     {
       heading: "Analyze performance indicators of FSTT students",
       subtitle: "Tools: Power BI, Excel, Visual Studio, SQL Server",
-      content: "Dans ce projet on va appliquer les techniques de l’informatique décisionnelles sur des données \n"+
-      "des étudiants de DEUST dans la faculté de science et techniques de Tanger pour extraire des \n"+
-      "informations et des connaissances utiles sur ces étudiants.\n"+
-      "a. Taux d’inscription/réussite par série de bac\n"+
-      "b.Taux d’inscription/réussite par ville\n"+
-      "c. Taux d’inscription/réussite par Sexe et par année",
+      content: "In this project i've applyed the techniques of business intelligence on data from DEUST students  \n"+
+      "in the Faculty of Science and Techniques of Tangier to extract information and useful knowledge about these students like.\n"+
+      "Enrollment/Pass Rate By Bac Series, By City, By Gender And Year \n",
+
       className1: "mar-right",
       link: "https://drive.google.com/file/d/1cza4Qoyl-_922XooeN_1vkF1JFeAwTh3/view?usp=sharing",
       className2: "prt_about_learnbox_right",

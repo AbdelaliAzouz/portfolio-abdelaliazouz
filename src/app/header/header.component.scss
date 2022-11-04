@@ -83,7 +83,7 @@ p {
   }
   
   .header .menu-icon .navicon {
-    background: #333;
+    background: rgb(225, 219, 219);
     display: block;
     height: 2px;
     position: relative;
@@ -94,7 +94,7 @@ p {
   
   .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
-    background: #333;
+    background: rgb(237, 229, 229);
     content: "";
     display: block;
     height: 100%;

@@ -48,7 +48,7 @@
   .greeting-image-div > img {
     max-width: 100%;
     height: auto;
-    padding-left: 150px;
+    padding-left: 120px;
   }
   .wave-emoji {
     animation-duration: 1.8s;
@@ -99,11 +99,23 @@
     .greeting-text-p {
       font-size: 20px;
     }
+
+    .greeting-image-div > img {
+      max-width: 100%;
+      height: auto;
+      padding-left: 120px;
+    }
   }
   @media (max-width: 768px) {
     .button-greeting-div {
       justify-content: space-around;
     }
+    .greeting-image-div > img {
+      max-width: 100%;
+      height: auto;
+      padding-left: 0px;
+    }
+
     .greeting-text {
       font-size: 30px;
       text-align: center;
