@@ -28,6 +28,14 @@ export class ExperienceComponent implements OnInit {
         certif: "../../../assets/images/certifications/IoT.png",
         },
       ],
+      experience5: [
+        {
+          certif: "../../../assets/images/certifications/machinelearningIBM.png",
+          },
+      {
+        certif: "../../../assets/images/certifications/PythonForDS.png",
+        },
+      ],
       experience3: [
       {
         certif: "../../../assets/images/certifications/Python.png",
