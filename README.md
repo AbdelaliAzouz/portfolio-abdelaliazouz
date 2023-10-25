@@ -44,3 +44,20 @@ $ cd Angularfolio
 $ npm install
 $ ng serve
 ```
+
+## Deploy to production using firebase 🔧
+
+From your command line, clone and run AngularFolio:
+```bash
+# builder l'application pour générer le dossier dist/..
+$ ng build --prod
+
+# Installez la Firebase CLI :
+$ npm install -g firebase-tools
+
+# Connectez-vous à Firebase en exécutant
+$ firebase login
+
+# deployer vers l'application avec l'id de projet
+$ firebase deploy --project <Numéro du projet> #tu trouvera le N° du projet dans les paramètres généreaux du projet dans firebase
+```
